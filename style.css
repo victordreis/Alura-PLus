@@ -142,4 +142,5 @@ body{
 }
 .container-botao-alura:active{
     border-color:#ffffff00;
+    color: #9b9696;
 }
