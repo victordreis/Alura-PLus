@@ -142,5 +142,51 @@ body{
 }
 .container-botao-alura:active{
     border-color:#ffffff00;
-    color: #9b9696;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        display:block;
+        background-image:none;
+    }
+    .img-combo{
+        width:70vw;
+        margin: 3em 0em;
+    }
+    .container-conteudo{
+        margin: 5em 2em 0em;
+    }
+    .secundario{
+        align-items: center;
+        margin: 0em 2em;
+        text-align: center;
+    }
+    .secundario-conteudo{
+        padding:0em;
+    }
+    .secundario-img{
+        width: 60vw;;
+        margin-bottom: 3em;
+        /* display: blsock; */
+    }
+    .dispositivos-lista{
+        display: block;
+        margin: 0em 0em;
+    } 
+    .rodape-lista{
+        display:block;
+    }  
+    .rodape{
+        margin: 1em 2em;
+    }
+    .secundario-inverte{
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+    .telas-img{
+        margin-left: 3em;
+    }
+    .dispositivos{
+        margin:0 2em;
+    }
 }
